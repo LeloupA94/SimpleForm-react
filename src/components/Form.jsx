@@ -64,7 +64,7 @@ const Form = () => {
             value={username}
             type="text"
             name="username"
-            placeholder="Your Name"
+            placeholder="Your Name..."
             onChange={(event) => {
               setUsername(event.target.value);
             }}
@@ -74,7 +74,7 @@ const Form = () => {
             value={email}
             type="email"
             name="email"
-            placeholder="Your Email"
+            placeholder="Your Email..."
             onChange={handleEmailChange}
           ></input>
           <span>Password (8 characters mini)</span>
@@ -83,7 +83,7 @@ const Form = () => {
               value={password}
               type="password"
               name="password"
-              placeholder="Your password"
+              placeholder="Your password..."
               onChange={(event) => {
                 setPassword(event.target.value);
                 setPasswordPaspareil(false); // Réinitialiser l'état lorsque le mot de passe est modifié
@@ -96,7 +96,7 @@ const Form = () => {
               value={confirmPassword}
               type="password"
               name="confirmPassword"
-              placeholder="Confirm your password"
+              placeholder="Confirm your password..."
               onChange={(event) => setConfirmPassword(event.target.value)}
               required
             />
