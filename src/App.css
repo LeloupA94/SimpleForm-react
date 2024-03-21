@@ -1,0 +1,177 @@
+#root {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background: #5c47d3;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+}
+
+.header > h1 {
+  align-items: center;
+  display: block;
+  font-size: 2em;
+  margin: 0.67em 0.67em 0 0;
+  font-weight: bold;
+}
+
+h2 {
+  align-items: center;
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.2em;
+}
+
+form > span {
+  font-size: 14px;
+}
+
+form input {
+  width: 300px;
+  border: 1px solid #d3d3d3;
+  height: 50px;
+  background: #fff;
+  margin: 5px 0 25px;
+  padding-left: 12px;
+}
+
+.submit-btn {
+  color: #fff;
+  background: #5c47d3;
+  border: 1px solid #5c47d3;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  color: #5c47d3;
+  border: 1px solid #5c47d3;
+  background: transparent;
+  transition-duration: 0.4s;
+}
+::placeholder {
+  color: #cecece;
+}
+
+.errorpass {
+  width: 300px;
+  height: 40px;
+  background: rgb(222, 63, 63);
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 40px;
+}
+
+.errorpass i {
+  padding: 10px;
+}
+
+.twowrongpass {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(222, 63, 63);
+}
+
+.twowrongpass i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.resultat {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.resultat > div {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #f2f2f2;
+  padding: 40px;
+  border-radius: 5px;
+}
+
+.resultat > div > p:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.resultat span {
+  font-weight: 700;
+}
+
+.editBtn {
+  color: #fff;
+  background: #5c47d3;
+  border: 1px solid #5c47d3;
+  font-weight: 700;
+  font-size: 15px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.editBtn:hover {
+  color: #5c47d3;
+  border: 1px solid #5c47d3;
+  background: transparent;
+  transition-duration: 0.4s;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.footer > div {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.footer > div > a {
+  text-decoration: none;
+  color: #141414;
+  font-weight: 700;
+}
+
+.footer > div > a:hover {
+  text-decoration: none;
+  color: #5c47d3;
+  font-weight: 700;
+}
