@@ -3,11 +3,17 @@ const Footer = () => {
     <div className="footer">
       <div>
         <span>Made with</span>
-        <a href="#">React</a>
+        <a href="https://fr.legacy.reactjs.org/" target="_blank">
+          React
+        </a>
         <span>at </span>
-        <a href="#">Le Reacteur</a>
+        <a href="https://www.lereacteur.io/" target="_blank">
+          Le Reacteur
+        </a>
         <span>by </span>
-        <a href="#">MrWolf</a>
+        <a href="https://github.com/LeloupA94" target="_blank">
+          MrWolf
+        </a>
       </div>
     </div>
   );
